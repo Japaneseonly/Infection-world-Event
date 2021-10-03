@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-10-03T17:26:00.113+09:00
+  initializedAtString: 2021-10-03T17:26:00.113+09:00
+  localBranches:
+  - name: 18e1003
+    tracking: origin/18e1003
+  remoteBranches:
+  - name: origin/18e1003
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/Japaneseonly/Infection-world-Event.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - 18e1003
+    values:
+    - name: 18e1003
+      remote:
+        name: origin
+        url: https://github.com/Japaneseonly/Infection-world-Event.git
+      trackingBranch: 18e1003
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - 18e1003
+      - main
+    subKeyValues:
+    - Values:
+      - name: 18e1003
+        remote:
+          name: origin
+          url: https://github.com/Japaneseonly/Infection-world-Event.git
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/Japaneseonly/Infection-world-Event.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/Japaneseonly/Infection-world-Event.git
