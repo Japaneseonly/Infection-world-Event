@@ -147,5 +147,18 @@ public class EncountManager : MonoBehaviour
         {
             ResultText.text = "大谷翔平の活躍";
         }
+
     }
+    Button ExploreButton;
+ 
+    void Start () 
+    {
+        ExploreButton = GetComponent<Button>();
+    }
+ 
+    public void OneClick() 
+    {
+        ExploreButton.interactable = false;
+    }
+
 }
